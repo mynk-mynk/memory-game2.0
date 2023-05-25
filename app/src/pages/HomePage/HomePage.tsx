@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from './HomePage.module.css';
+import { NavLink } from 'react-router-dom';
 
-function HomePage() {
+export function HomePage() {
   return (
-    <div className={styles.container}>
-      <p>game</p>
-      <p>top 10</p>
-    </div>
+    <nav className={styles.container}>
+      <NavLink to={'/game'}>game</NavLink>
+      <NavLink to={'/winners'}>top 10</NavLink>
+    </nav>
   );
 }
 
-export default HomePage;
+// export default HomePage;

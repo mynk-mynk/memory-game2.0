@@ -1,0 +1,4 @@
+1. npx create-react-app my-app --template typescript
+2. favicon and document name (public, index.html)
+3. install eslint and prettier
+4. add routing
