@@ -1,0 +1,19 @@
+@font-face {
+  font-family: AmaticSC;
+  src: local(AmaticSC), url('./assets/fonts/AmaticSC-Regular.ttf');
+}
+
+@font-face {
+  font-family: Shizuru;
+  src: url('./assets/fonts/Shizuru-Regular.ttf');
+}
+
+:root {
+  --font-primary: AmaticSC;
+  --font-secondary: Shizuru;
+
+  --color-background: #ECEDED;
+  --color-grey: #717D84;
+
+  --color-card-front: #B1BECD;
+}
