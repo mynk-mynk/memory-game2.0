@@ -11,4 +11,9 @@
 :root {
   --font-primary: AmaticSC;
   --font-secondary: Shizuru;
+
+  --color-background: #ECEDED;
+  --color-grey: #717D84;
+
+  --color-card-front: #B1BECD;
 }

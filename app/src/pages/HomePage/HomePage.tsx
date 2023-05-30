@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './HomePage.module.css';
 import { NavLink } from 'react-router-dom';
-import { Card } from '../../components/card/card';
+import { OwlStartingImg } from '../../components/owlStartingImg/owlStartingImg';
 import { allOwlSrc } from '../../assets/owls/owls';
 
 export function HomePage() {
@@ -12,9 +12,9 @@ export function HomePage() {
         <NavLink to={'/game'}>game</NavLink>
         <NavLink to={'/winners'}>top 10</NavLink>
       </nav>
-      <div className={styles['cards-container']}>
+      <div className={styles['img-container']}>
         {allOwlSrc.map((src, i) => (
-          <Card key={src} owlSrc={src} index={i + 1} />
+          <OwlStartingImg key={src} owlSrc={src} index={i + 1} />
         ))}
       </div>
     </div>

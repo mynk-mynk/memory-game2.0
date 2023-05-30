@@ -1,5 +1,23 @@
-.winners {
-  width: 50px;
-  height: 50px;
-  background: rgb(203, 120, 219);
+.winners-container {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  color: var(--color-grey);
+  width: 500px;
+  height: 500px;
+  background: var(--color-background);
+  border: 1.5px solid var(--color-grey);
+  border-radius: 15px;
+  border-bottom: 3px outset #C9D1D8;
+  border-right: 3px outset #C9D1D8;
+  box-shadow: 10px 10px 12px -4px rgba(113, 125, 132, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 2rem;
 }

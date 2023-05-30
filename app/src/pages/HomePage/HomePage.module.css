@@ -22,10 +22,11 @@
   color: grey;
 }
 
-.cards-container {
-  max-width: 420px;
+.img-container {
+  max-width: 500px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 5px;
 }

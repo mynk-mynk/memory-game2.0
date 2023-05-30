@@ -1,7 +1,16 @@
 .card {
-  width: fit-content;
+  width: 90px;
+  height: 120px;
+  background: var(--color-card-front);
+  border-radius: 15px;
+  box-shadow: 13px 12px 14px -4px rgba(113, 125, 132, 1);
+  border-bottom: 3px outset #B1BECD;
+  border-right: 3px outset #B1BECD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardImg {
-  width: 80px;
+  width: 75px;
 }
